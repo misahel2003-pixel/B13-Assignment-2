@@ -50,7 +50,7 @@
         <a href="">Host</a>
       </div>
       <button
-        class="px-4 lg:px-6 py-2 rounded-full font-bold text-xs lg:text-sm flex items-center gap-2"
+        class="lg:hidden px-4 lg:px-6 py-2 rounded-full font-bold text-xs lg:text-sm flex items-center gap-2"
       >
         <svg
           viewBox="0 0 24 24"
@@ -77,6 +77,11 @@
           />
         </svg>
       </button>
+      <button
+        class="hidden lg:flex gradient-bg px-4 lg:px-6 py-2 rounded-full font-bold text-xs lg:text-sm  items-center gap-2"
+      >
+        subscribe <img class="w-4 h-4" src="assets/ArrowRight.png" alt="" />
+      </button>
     </header>
 
     <section
@@ -84,7 +89,7 @@
     >
       <div class="absolute inset-0 flex justify-center items-center">
         <img
-          src="assets/hero-bg.png"
+          src="./assets/hero-bg.png"
           alt="Hero Background"
           class="w-full object-cover h-[85%] md:h-full"
         />
